@@ -1,7 +1,8 @@
-import 'animal.dart';
-import 'flying.dart';
 
-class Bat extends Animal implements Flying {
+import 'flying.dart';
+import 'mammals.dart';
+
+class Bat extends Mammals implements Flying {
   Bat(int yearOfBirth) : super(yearOfBirth);
 
   @override

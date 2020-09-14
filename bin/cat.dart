@@ -1,6 +1,7 @@
-import 'animal.dart';
-import 'jumping.dart';
 
-class Cat extends Animal with Jumping {
+import 'jumping.dart';
+import 'mammals.dart';
+
+class Cat extends Mammals with Jumping {
   Cat(int yearOfBirth) : super(yearOfBirth);
 }
